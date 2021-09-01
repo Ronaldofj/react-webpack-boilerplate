@@ -1,7 +1,7 @@
 import './styles.css';
 import React from 'react';
 
-export default function App() {
+const App: React.FC = () => {
   return (
     <div>
       <h1>
@@ -10,3 +10,5 @@ export default function App() {
     </div>
   )
 }
+
+export default App;
